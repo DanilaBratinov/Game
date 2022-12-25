@@ -61,8 +61,8 @@ extension MainViewController {
             vsLabel.text = "Поражение 😔"
             vsLabel.fadeIn()
             logic.statics.insert(logic.winner, at: 0)
-        case . user:
-            vsLabel.text = "Побада 😁"
+        case .user:
+            vsLabel.text = "Победа 😁"
             vsLabel.fadeIn()
             logic.statics.insert(logic.winner, at: 0)
         case .draw:

@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		455AC4822958895800CDEA42 /* StatisitcsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisitcsListController.swift; sourceTree = "<group>"; };
 		455AC4862958AEF800CDEA42 /* Extension + UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UILabel.swift"; sourceTree = "<group>"; };
-		45913F85295848650028FF65 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45913F85295848650028FF65 /* RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45913F88295848650028FF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45913F8A295848650028FF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		45913F8C295848650028FF65 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		45913F86295848650028FF65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45913F85295848650028FF65 /* Game.app */,
+				45913F85295848650028FF65 /* RPS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45913F84295848640028FF65 /* Game */ = {
+		45913F84295848640028FF65 /* RPS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45913F992958486B0028FF65 /* Build configuration list for PBXNativeTarget "Game" */;
+			buildConfigurationList = 45913F992958486B0028FF65 /* Build configuration list for PBXNativeTarget "RPS" */;
 			buildPhases = (
 				45913F81295848640028FF65 /* Sources */,
 				45913F82295848640028FF65 /* Frameworks */,
@@ -134,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = Game;
+			name = RPS;
 			productName = Game;
-			productReference = 45913F85295848650028FF65 /* Game.app */;
+			productReference = 45913F85295848650028FF65 /* RPS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45913F84295848640028FF65 /* Game */,
+				45913F84295848640028FF65 /* RPS */,
 			);
 		};
 /* End PBXProject section */
@@ -410,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45913F992958486B0028FF65 /* Build configuration list for PBXNativeTarget "Game" */ = {
+		45913F992958486B0028FF65 /* Build configuration list for PBXNativeTarget "RPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45913F9A2958486B0028FF65 /* Debug */,
